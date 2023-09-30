@@ -54,7 +54,7 @@ group :development, :test do
 
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 
-  gem "sqlite3", "1.4.2"
+  gem "sqlite3"
 
 end
 
@@ -82,5 +82,5 @@ group :test do
 end
 
 group :production do
-  gem "pg", "1.3.5"
+  gem "pg"
 end
